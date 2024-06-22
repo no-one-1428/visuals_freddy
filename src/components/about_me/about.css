@@ -1,0 +1,74 @@
+*{
+    overflow-x: hidden;
+}
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    height: 100vh;
+
+    
+}
+
+.layer1 {
+    background-image: url('../../assets/wave.svg');
+}
+
+.about_img {
+    background-image: url('../../assets/geo_square_2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55%; /* Adjusted width */
+    height: 600px; /* Adjusted height */
+    margin-left: 20px;
+}
+
+.cont_about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.cont_heading {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.cont_heading h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.cont_heading h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.cont_heading button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cont_heading button:hover {
+    background-color: #0056b3;
+}
+.cont_heading{
+    color: white;
+}
