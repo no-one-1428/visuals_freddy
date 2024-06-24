@@ -9,6 +9,7 @@
   font-weight: 300;
   font-style: oblique;
   font-size: small;
+  cursor: default;
 
   
 
@@ -20,3 +21,4 @@ body{
 .next{
   background-color: #514a5d;
 }
+

@@ -1,0 +1,25 @@
+.nd_half {
+    padding-top: 15vh;
+}
+
+.abot_main_logo {
+    height: 120px;
+    width: 100vw;
+    background-color: white;
+    background-image: url(../../assets/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    font-size: 3rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #514a5d;
+    position: relative; /* Needed for the pseudo-element */
+    text-align: center; /* Center the text */
+}
+
+

@@ -1,61 +1,47 @@
-import React, { useState } from 'react';
-import './navbar.css';
+import React, { useState } from "react";
+import "./navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    const [isSidebarOpen, setSidebarOpen] = useState(false);
+  const [is_sidebar_open, toogle_sidebar] = useState(false)
+  const lets_toogle = () => {
+    toogle_sidebar(!is_sidebar_open)
+  }
+  return (
+    <nav>
+      <div className="for_pc">
+        <div className="for_pc_cont">
+          <div className="for_pc_cont_1">Logo</div>
+          <div className="for_pc_cont_2">
+            <li><Link to={`/`} className="hover_to" >Home</Link></li>
+            <li><Link to={`/`} className="hover_to" >Services</Link></li>
+            <li><Link to={`/`} className="hover_to" >Upcoming Projects</Link></li>
+            <li><Link to={`/about`} className="hover_to" >About Me</Link></li>
+            <li className="contact_me">Contact Me</li>
+          </div>
+        </div>
+      </div>
 
-    const toggleSidebar = () => {
-        setSidebarOpen(!isSidebarOpen);
-    };
+      <div className="for_mobile">
+        <div className="for_mobile_cont">
+          <div className="logo_on_mobile hello12e">Logo</div>
+          <span className="material-symbols-outlined hello12e" onClick={lets_toogle}>menu</span>
+        </div>
+      </div>
 
-    const closeSidebar = () => {
-        setSidebarOpen(false);
-    };
-
-    return (
-        <nav>
-            <div className='for_pc'>
-                <ul className='list_cont'>
-                    <li>Logo</li>
-                    <div className='navigation_cotn'>
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Upcoming Projects</li>
-                        <li>About Me</li>
-                        <li className='contact_me'>Contact Me</li>
-                    </div>
-                </ul>
-            </div>
-            <div className='for_mobile'>
-                <div className='for_mobile_cont'>
-                    <ul className='list_cont_mobile'>
-                        <li>Logo</li>
-                        <li 
-                            className="material-symbols-outlined menu_icon" 
-                            onClick={toggleSidebar}
-                        >
-                            menu
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            {isSidebarOpen && (
-                <div className='sidebar_cont'>
-                    <div className='sidebar_hai'>
-                        <button className='close_button' onClick={closeSidebar}>X</button>
-                        <ul>
-                            <li>Home</li>
-                            <li>Services</li>
-                            <li>Upcoming Projects</li>
-                            <li>About Me</li>
-                            <li>Contact Me</li>
-                        </ul>
-                    </div>
-                </div>
-            )}
-        </nav>
-    );
-}
+      <div className={is_sidebar_open ? 'sidebar':'none'}>
+      <span className="material-symbols-outlined close" onClick={lets_toogle}>close</span>
+        <div className="cont_mob_list">
+        <ul className="list_cont_mob">
+        <li><Link to={`/`} className="hover_to" >Home</Link></li>
+            <li><Link to={`/`} className="hover_to" >Services</Link></li>
+            <li><Link to={`/`} className="hover_to" >Upcoming Projects</Link></li>
+            <li><Link to={`/about`} className="hover_to" >About Me</Link></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;

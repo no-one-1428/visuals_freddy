@@ -17,6 +17,13 @@
     
 }
 
+@media screen and (max-width:800px) {
+    .spacer{
+        height: 160vh;
+    }
+
+    
+}
 .layer1 {
     background-image: url('../../assets/wave.svg');
 }

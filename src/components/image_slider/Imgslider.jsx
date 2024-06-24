@@ -8,6 +8,7 @@ const Imgslider = () => {
     { id: 1, title: 'Card_1', className: 'img_1' },
     { id: 2, title: 'Card_2', className: 'img_2' },
     { id: 3, title: 'Card_3', className: 'img_3' }
+    
   ];
 
   const handlePanelClick = (index) => {

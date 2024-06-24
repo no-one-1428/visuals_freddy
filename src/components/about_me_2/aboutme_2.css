@@ -1,0 +1,31 @@
+
+.cont_about_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    flex-wrap: wrap;
+    overflow-x: hidden;
+
+    position: absolute;
+    left: -10%;
+    background-color: #514a5d;
+
+}
+.helloguys{
+    background-color: #514a5d;
+}
+
+@media screen and (max-width:1030px) {
+    .cont_about_1{
+        left: 0px;
+    }
+    .img_2323{
+        display: none;
+    }
+    .layer70{
+        height: 30vh;
+
+    }
+}
