@@ -3,6 +3,7 @@ import Navbar from "../../components/navbar/Navbar";
 import About from "../../components/about_me/About";
 import './about.css'
 import About_me_2 from '../../components/about_me_2/About_me_two.jsx'
+import Fotter from "../../components/fotter/Fotter.jsx";
 
 const About_o = () => {
   return (
@@ -14,6 +15,7 @@ const About_o = () => {
         </div>
         <About/>
         <About_me_2/>
+        <Fotter/>
       </div>
     </div>
   );

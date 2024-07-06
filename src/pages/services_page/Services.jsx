@@ -1,21 +1,21 @@
 import React from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Fotter from "../../components/fotter/Fotter";
-import ContactForm from "../../components/contactform/ContactForm"; // Import the ContactForm component
-import './Contact.css'
-const Contact = () => {
+import Card from "../../components/card/Card";
+
+const Services = () => {
   return (
     <div className="About_page">
       <Navbar />
       <div className="nd_half">
         <div className="abot_main_logo">
-          <h1 className="contact_us_jed">Contact Us</h1>
+          <h1 className="contact_us_jed">Services</h1>
         </div>
-        <ContactForm /> {/* Add the ContactForm component here */}
       </div>
+      <Card/>
       <Fotter />
     </div>
   );
 };
 
-export default Contact;
+export default Services;
