@@ -62,13 +62,22 @@ nav{
   .contact {
     background-color: #342f3d;
     color: white;
-    padding: 1px 9px;
-    border-radius: 4px;
+    padding: 8px 15px;
+    border-radius: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
+
+  .contact:hover{
+    background-color: aliceblue;
+    color: black;
+
+    border: 1px solid #342f3d;
+    border-radius: 7px;
+    padding: 7px 14px;
+  }
+
   
   .menu-icon {
     display: none;
@@ -128,3 +137,7 @@ nav{
     }
   }
   
+  .overflowhidden{
+    
+    overflow: hidden;
+  }

@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.css';
-import wave from '../../assets/wave.svg';
 
 const About = () => {
     return (

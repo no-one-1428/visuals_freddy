@@ -29,7 +29,7 @@ const Card = () => {
                     <div className="img_1_c"></div>
                     <div className="other_then_img">
                         <h1 className="heading_txt_Card">My VFX process</h1>
-                        <p>
+                        <p className='para_of_card'>
                             The choice of software, techniques and details are not
                             insignificant, discover more about my artistic process.
                         </p>
@@ -37,25 +37,26 @@ const Card = () => {
                     </div>
                 </div>
                 <div className="card hidden">
-                    <div className="img_1_c"></div>
+                    <div className="img_2_c"></div>
                     <div className="other_then_img">
-                        <h1 className="heading_txt_Card">My VFX process</h1>
-                        <p>
-                            The choice of software, techniques and details are not
-                            insignificant, discover more about my artistic process.
+                        <h1 className="heading_txt_Card">My work
+                        </h1>
+                        <p className='para_of_card'>
+                        Here is a selection of my works, exhibited in my portfolio.
                         </p>
-                        <button className="button_card">More Information</button>
+                        <button className="button_card">Discover</button>
                     </div>
                 </div>
                 <div className="card hidden">
-                    <div className="img_1_c"></div>
+                    <div className="img_3_c"></div>
                     <div className="other_then_img">
-                        <h1 className="heading_txt_Card">My VFX process</h1>
-                        <p>
-                            The choice of software, techniques and details are not
-                            insignificant, discover more about my artistic process.
+                        <h1 className="heading_txt_Card">About me</h1>
+                        <p className='para_of_card'>
+                        Formerly a graphic designer, I started my professional transition 10 years ago.
                         </p>
-                        <button className="button_card">More Information</button>
+                        <div className="div_ofButton_Card">
+                            <button className="button_card">Get In Touch</button>
+                        </div >
                     </div>
                 </div>
             </div>

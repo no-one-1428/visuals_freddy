@@ -10,12 +10,12 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="navbar">
+      <div className="navbar overflowhidden">
         <div className="logo">Logo</div>
         <div className="menu">
           <li><Link to="/" className="hover">Home</Link></li>
           <li><Link to="/services" className="hover">Services</Link></li>
-          <li><Link to="/" className="hover">Projects</Link></li>
+          <li><Link to="/project" className="hover">Projects</Link></li>
           <li><Link to="/about" className="hover">About</Link></li>
           <li><Link to="/contact" className="contact">Contact</Link></li>
         </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
           <ul className="sidebar-menu">
             <li><Link to="/" className="hover">Home</Link></li>
             <li><Link to="/services" className="hover">Services</Link></li>
-            <li><Link to="/" className="hover">Projects</Link></li>
+            <li><Link to="/project" className="hover">Projects</Link></li>
             <li><Link to="/about" className="hover">About</Link></li>
             <li><Link to="/contact" className="contact">Contact</Link></li>
           </ul>

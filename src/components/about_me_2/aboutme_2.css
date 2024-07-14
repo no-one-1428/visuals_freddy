@@ -29,3 +29,16 @@
 
     }
 }
+
+.about_img_2 {
+    background-image: url('../../assets/geo_square_3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55%; /* Adjusted width */
+    height: 600px; /* Adjusted height */
+    margin-left: 20px;
+
+
+    overflow: hidden;
+}

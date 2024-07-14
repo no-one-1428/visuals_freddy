@@ -22,27 +22,53 @@
 
 .img_1_c{
     background-image: url('../../assets/img/1.jpg');
-    width: 100%;
-    height: 100%;
+    background-size: cover;         /* Ensure the image covers the entire div */
+    background-repeat: no-repeat;   /* Prevent the image from repeating */
+    background-position: center center; /* Center the image in the div */
+    width: 100%; /* You can adjust the width as needed */
+
+}
+.img_3_c{
+    background-image: url('../../assets/img/3.jpg');    
+    background-size: cover;         /* Ensure the image covers the entire div */
+    background-repeat: no-repeat;   /* Prevent the image from repeating */
+    background-position: center center; /* Center the image in the div */
+    width: 100%; /* You can adjust the width as needed */
+
+}
+.img_2_c{
+    background-image: url('../../assets/img/2.jpg');
+    background-size: cover;         /* Ensure the image covers the entire div */
+    background-repeat: no-repeat;   /* Prevent the image from repeating */
+    background-position: center center; /* Center the image in the div */
+    width: 100%; /* You can adjust the width as needed */
 }
 .other_then_img{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     margin: 15px;
 }
 .heading_txt_Card{
-    font-weight: 800;
-    font-size: x-large;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 .button_card{
-    background-color: #514a5d;
+    background-color: #342f3d;
     color: white;
     border-radius: 10px;
     border: none;
     height: 35px;
-    width: 60%;
+    width: 55%;
 
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+
+    transition: all 0.3s ease;
+}
+.button_card:hover{
+    transform: translate(-3px, -3px);
 }
 .card_contt{
     display: flex;
@@ -83,4 +109,9 @@
 }
 .hidden:nth-child(3){
     transition-delay: 300ms;
+}
+
+.para_of_card{
+    font-size: 1rem;
+    font-weight: 400;
 }
