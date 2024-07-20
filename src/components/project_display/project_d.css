@@ -58,3 +58,28 @@
     background-color: #2c2834;
     transform: translate(-4px, -4px );
 }
+
+.donut{
+    background-image: url(../../../public/content/dount/Donut.jpg);
+}
+.ig{
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.sword{
+    background-image: url(../../../public/content/sword/Sword.jpg);
+}
+.usualHour{
+    background-image: url(../../../public/content/usualHour/usualHour.jpg);
+}
+.spiritRecarnation{
+    background-image: url(../../../public/content/sprint/Spirit.jpg);
+}
+.skull{
+    background-image: url(../../../public/content/abandoned_skull/Abandoned_Skull.jpg);
+}
+.dount{
+    background-image: url(../../../public/content/dount/Donut.jpg);
+}

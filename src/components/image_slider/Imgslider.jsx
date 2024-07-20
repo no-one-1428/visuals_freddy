@@ -5,9 +5,9 @@ const Imgslider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const panels = [
-    { id: 1, title: 'Card_1', className: 'img_1' },
-    { id: 2, title: 'Card_2', className: 'img_2' },
-    { id: 3, title: 'Card_3', className: 'img_3' }
+    { id: 1, title: 'Skull', className: 'img_1' },
+    { id: 2, title: 'Sword', className: 'img_2' },
+    { id: 3, title: 'Donut', className: 'img_3' }
     
   ];
 
@@ -25,7 +25,7 @@ const Imgslider = () => {
             className={`panel ${panel.className} ${activeIndex === index ? 'active' : ''}`}
             onClick={() => handlePanelClick(index)}
           >
-            <h1>{panel.title}</h1>
+            <button className='banner_view_more'> View More</button>
           </div>
         ))}
       </div>

@@ -6,7 +6,7 @@ const Project_d = () => {
     <div className='project_d_main_cont'>
 
         <div className='project_d_card_Cont'>
-            <div className='project_image_d'>image</div>
+            <div className='project_image_d donut ig'></div>
             <div className='project_d_heading'> THE DONUT
             </div>
             <div className='project_d_overvieww'>
@@ -17,7 +17,7 @@ const Project_d = () => {
         </div>
 
         <div className='project_d_card_Cont'>
-            <div className='project_image_d'>image</div>
+            <div className='project_image_d ig sword'></div>
             <div className='project_d_heading'> THE SWORD
             </div>
             <div className='project_d_overvieww'>
@@ -28,7 +28,7 @@ const Project_d = () => {
         </div>
 
         <div className='project_d_card_Cont'>
-            <div className='project_image_d'>image</div>
+            <div className='project_image_d ig usualHour'></div>
             <div className='project_d_heading'> USUAL HOUR
             </div>
             <div className='project_d_overvieww'>
@@ -39,7 +39,7 @@ const Project_d = () => {
         </div>
 
         <div className='project_d_card_Cont'>
-            <div className='project_image_d'>image</div>
+            <div className='project_image_d  ig spiritRecarnation'></div>
             <div className='project_d_heading'> SPIRIT’S RECARNATION
             </div>
             <div className='project_d_overvieww'>
@@ -50,7 +50,7 @@ const Project_d = () => {
         </div>
 
         <div className='project_d_card_Cont'>
-            <div className='project_image_d'>image</div>
+            <div className='project_image_d ig skull'></div>
             <div className='project_d_heading'> ABANDONED SKULL
             </div>
             <div className='project_d_overvieww'>
@@ -61,7 +61,7 @@ const Project_d = () => {
         </div>
 
         <div className='project_d_card_Cont'>
-            <div className='project_image_d'>image</div>
+            <div className='project_image_d ig dount'></div>
             <div className='project_d_heading'> THE DONUT
             </div>
             <div className='project_d_overvieww'>
@@ -72,7 +72,7 @@ const Project_d = () => {
         </div>
 
         <div className='project_d_card_Cont'>
-            <div className='project_image_d'>image</div>
+            <div className='project_image_d'></div>
             <div className='project_d_heading'> DORAEMON BUTTON
             </div>
             <div className='project_d_overvieww'>

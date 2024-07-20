@@ -5,11 +5,11 @@ const Fotter = () => {
     <footer className="foot_cont">
       <div className="fotter_his">
         <div className="upper_info_f">
-          <div>
+          <div className="fotter_block_upper">
             <h2> How can we help?</h2>
             <h1 className="bigtext_h1">Contact us anytime</h1>
           </div>
-          <div>
+          <div className="fotter_block_upper" > 
             <h2>Call us</h2>
             <h1>
               <a className="bigtext_h1" href="">
@@ -17,11 +17,11 @@ const Fotter = () => {
               </a>
             </h1>
           </div>
-          <div>
+          <div className="fotter_block_upper" >
             <h2>Send us a message</h2>
             <h1 className="bigtext_h1">hello@mycompany.com</h1>
           </div>
-          <div>
+          <div className="fotter_block_upper">
             <h2>Follow Us</h2>
             <div className="icons_fot">
               <i class="fa fa-twitter"></i>
@@ -30,8 +30,12 @@ const Fotter = () => {
             </div>
           </div>
         </div>
+
+
         <div className="line_about"></div>
         <br />
+
+        
         <div className="header_nav_cont">
           <div className="header_nav">
             <div>Your Logo</div>
