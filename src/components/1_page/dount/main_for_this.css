@@ -1,0 +1,42 @@
+.after_nav_page{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.this_page_image{
+    width: 100%;
+    max-width: 50vw;
+    min-width: 49vw;
+
+    border: 2px solid white;
+    border-radius: 20px;
+
+    margin: 50px;
+}
+.h1_this_page{
+    color: white;
+    font-size: 3rem;
+}
+.p_this_page{
+    color: white;
+
+
+
+}
+.text_for_this_page{
+    padding: 40px;
+}
+@media screen and (max-width:1000px) {
+    .after_nav_page{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .this_page_image{
+        max-width: 90vw;
+    }
+    
+}

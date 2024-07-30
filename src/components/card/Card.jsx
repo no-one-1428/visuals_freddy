@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./card.css";
 
+
 const Card = () => {
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
@@ -33,6 +34,7 @@ const Card = () => {
                             The choice of software, techniques and details are not
                             insignificant, discover more about my artistic process.
                         </p>
+
                         <button className="button_card">More Information</button>
                     </div>
                 </div>
